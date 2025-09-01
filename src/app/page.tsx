@@ -8,9 +8,9 @@ import { ContactSection } from "@/components/sections/contact-section";
 
 export default function Page() {
   return (
-    <>
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
-      <main>
+      <main className="w-full">
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
@@ -18,6 +18,6 @@ export default function Page() {
         <ContactSection />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
