@@ -25,7 +25,7 @@ export function AboutSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-blue-50">개발자에 대하여</h2>
         </div>
         
-        <div className="grid md:grid-cols-[1fr_2fr] gap-12 lg:gap-20 items-center">
+        <div className="grid md:grid-cols-[1fr_2fr] gap-12 lg:gap-20 items-center max-w-6xl mx-auto">
           <div className="flex flex-col items-center relative">
             {/* 장식 요소 */}
             <div className="absolute w-72 h-72 rounded-full bg-blue-500/10 -z-10 blur-2xl"></div>

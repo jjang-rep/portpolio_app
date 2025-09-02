@@ -69,7 +69,7 @@ export function ContactSection() {
           <h2 className="text-3xl md:text-4xl font-bold">함께 일해요</h2>
         </div>
 
-        <div className="grid md:grid-cols-[1fr_2fr] gap-8 lg:gap-16">
+        <div className="grid md:grid-cols-[1fr_2fr] gap-8 lg:gap-16 max-w-6xl mx-auto">
           <div className="bg-background/50 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-lg border border-muted/10 h-fit">
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
               <span className="inline-block h-1 w-6 bg-primary rounded-full"></span>

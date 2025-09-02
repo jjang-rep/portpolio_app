@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="bg-muted/30 border-t border-muted/20">
       <div className="container py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           <div className="space-y-3">
             <h3 className="font-bold text-lg">개발자 포트폴리오</h3>
             <p className="text-muted-foreground text-sm">

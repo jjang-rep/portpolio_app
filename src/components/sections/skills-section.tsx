@@ -1,4 +1,3 @@
-import { Separator } from "@/components/ui/separator";
 import { Code, Database, Workflow } from "lucide-react";
 
 interface Skill {
@@ -43,7 +42,7 @@ export function SkillsSection() {
           <h2 className="text-3xl md:text-4xl font-bold">기술 스택</h2>
         </div>
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto">
           <SkillCategory 
             title="프론트엔드" 
             icon={<Code className="h-5 w-5" />} 
