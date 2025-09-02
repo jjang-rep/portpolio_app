@@ -44,9 +44,13 @@ export function HeroSection() {
         </h1>
         
         <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground max-w-3xl mb-12 leading-relaxed font-medium">
-          혁신적인 웹 솔루션을 통해 비즈니스 문제를 해결하는 풀스택 개발자입니다.
+          <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 dark:from-blue-300 dark:via-indigo-300 dark:to-purple-300 bg-clip-text text-transparent">
+            혁신적인 웹 솔루션을 통해 비즈니스 문제를 해결하는 풀스택 개발자입니다.
+          </span>
           <br className="hidden sm:block" /> 
-          프론트엔드와 백엔드 기술을 모두 활용하여 사용자 중심의 웹 애플리케이션을 구축합니다.
+          <span className="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 dark:from-emerald-300 dark:via-teal-300 dark:to-cyan-300 bg-clip-text text-transparent">
+            프론트엔드와 백엔드 기술을 모두 활용하여 사용자 중심의 웹 애플리케이션을 구축합니다.
+          </span>
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6">

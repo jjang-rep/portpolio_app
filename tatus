@@ -1,0 +1,10 @@
+warning: in the working copy of 'src/components/layout/footer.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/sections/about-section.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/sections/contact-section.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/sections/projects-section.tsx', LF will be replaced by CRLF the next time Git touches it
+src/components/layout/footer.tsx
+src/components/providers/theme-provider.tsx
+src/components/sections/about-section.tsx
+src/components/sections/contact-section.tsx
+src/components/sections/projects-section.tsx
+src/components/sections/skills-section.tsx
