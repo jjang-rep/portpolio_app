@@ -34,7 +34,7 @@ export function HeroSection() {
       <div className="container relative z-10 flex flex-col items-center text-center lg:items-start lg:text-left">
         <div className="mb-8 relative">
           <div className="inline-block rounded-full bg-primary/10 p-2 backdrop-blur-sm mb-4">
-            <span className="text-sm font-semibold px-3 py-1 text-primary dark:text-blue-100">풀스택 개발자</span>
+            <span className="text-sm font-semibold px-3 py-1 text-primary dark:text-blue-100">풀스택 개발자 [백엔드, 프론트엔드, 데이터 분석, 데이터 모델링]</span>
           </div>
         </div>
         
